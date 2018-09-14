@@ -1,5 +1,5 @@
 
-import React, { Component } from 'react'
+import React from 'react'
 
 // class Screen extends Component {
 //     render() {
@@ -12,8 +12,6 @@ import React, { Component } from 'react'
 //     }
 // }
 
-const Screen = (props) => <div className="row">
-    <div className="screen">{props.result}</div>
-</div>
+const Screen = (props) => <div className="screen">{props.result}</div>
 
 export default Screen
