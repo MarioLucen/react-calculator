@@ -1,0 +1,15 @@
+
+.container {
+    display: flex;
+    flex-flow: column;
+    width: 233px;
+    height: 321px;
+    margin-left: $general-margin;
+    margin-top: $header-height;
+    background-color: $specialgrey;
+    border-radius: 5px;
+    border: 1px solid $darkgrey;
+    overflow: hidden;
+    font-family: Helvetica;
+    box-shadow: 10px -4px 26px #939393;
+}
