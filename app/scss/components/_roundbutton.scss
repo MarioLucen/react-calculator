@@ -7,9 +7,9 @@
     border-radius: 200px;
     font-size: 10px;
 
-    &:first-child { background-color: #ee6155; }
+    &.close { background-color: #ee6155; }
         
-    &:last-child { background-color: #5fc554; }
+    &.minimize { background-color: #5fc554; }
                        
-    &:nth-child(even) { background-color: #f7c452; }
+    &.expand { background-color: #f7c452; }
 }

@@ -87,9 +87,9 @@ class ContainerCalc extends Component {
       return (
         <div className='container'>
           <Row>
-            <RoundButton />
-            <RoundButton />
-            <RoundButton />
+            <RoundButton type='close' />
+            <RoundButton type='minimize' />
+            <RoundButton type='expand' />
           </Row>
           <Row>
             <Screen result={this.state.result} />
