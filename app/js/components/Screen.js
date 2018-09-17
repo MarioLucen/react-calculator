@@ -12,6 +12,6 @@ import React from 'react'
 //     }
 // }
 
-const Screen = (props) => <div className="screen">{props.result}</div>
+const Screen = (props) => <div className='screen'>{props.result}</div>
 
 export default Screen
