@@ -1,11 +1,25 @@
 
-.button {
-    width: 25%;
-    height: 48px;
-    background-color: $generalgrey;
-    text-align: center;
-    border-top: 1px solid $darkgrey;
-    border-right: 1px solid $darkgrey;
-    font-weight: lighter;
-    font-size: 16.5px;
-}
+ .row {
+    display: flex;
+    flex-flow: row;
+
+    &:last-child .button:first-child { width: 50%; }
+
+    .button {
+        width: 25%;
+        height: 48px;
+        background-color: $generalgrey;
+        text-align: center;
+        border-top: 1px solid $darkgrey;
+        border-right: 1px solid $darkgrey;
+        font-weight: lighter;
+        font-size: 16.5px;
+        padding-top: 14px;
+
+        &:last-child {
+            background-color: $orange;
+            color: white;
+            border-right: none;
+        }    
+    }
+}    

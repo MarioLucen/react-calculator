@@ -1,0 +1,15 @@
+
+.roundbutton {
+    width: 12px;
+    height: 12px;
+    margin-left: 7.5px;
+    margin-top: 5px;
+    border-radius: 200px;
+    font-size: 10px;
+
+    &:first-child { background-color: #ee6155; }
+        
+    &:last-child { background-color: #5fc554; }
+                       
+    &:nth-child(even) { background-color: #f7c452; }
+}
